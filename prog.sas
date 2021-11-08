@@ -1,6 +1,6 @@
 
 *libname for teacher;
-libname c 'C:\Users\stefano.balla\Desktop\clamda2021';
+libname c 'C:\Users\lucia.laforgia\Desktop\clamda2021';
 *preprocessing;
 *scaling;
 *pca;
@@ -277,7 +277,7 @@ run;
 
 ************************************************ETA********************;
 
-*descrizione di tutti i cluster using cat-variable et‡ binned;
+*descrizione di tutti i cluster using cat-variable et√† binned;
 proc freq data=c.lux_adj_2;
 table d8*cluster;
 run;
@@ -333,7 +333,7 @@ run;
 
 *************PROFESSIONE**********
 
-*descrizione di tutti i cluster using cat-variable et‡ binned;
+*descrizione di tutti i cluster using cat-variable et√† binned;
 proc freq data=c.lux_adj_2;
 table d9*cluster;
 run;
